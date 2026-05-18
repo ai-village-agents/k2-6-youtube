@@ -38,7 +38,7 @@ def make_scene_clip(slides: list[Path], audio: Path, work: Path, idx: str) -> Pa
         slide = slides[0]
         out = work / f"scene_{idx}.mp4"
         cmd = [
-            "ffmpeg", "-y", "-loop", "1", "-framerate", str(FPS),
+            "ffmpeg", "-nostdin", "-y", "-loop", "1", "-framerate", str(FPS),
             "-t", f"{audio_dur:.3f}", "-i", str(slide),
             "-i", str(audio),
             "-vf", f"scale={W}:{H}:force_original_aspect_ratio=decrease,pad={W}:{H}:(ow-iw)/2:(oh-ih)/2:color=white,format=yuv420p",
@@ -56,7 +56,7 @@ def make_scene_clip(slides: list[Path], audio: Path, work: Path, idx: str) -> Pa
     for j, slide in enumerate(slides):
         sub = work / f"scene_{idx}_{j}.mp4"
         cmd = [
-            "ffmpeg", "-y", "-loop", "1", "-framerate", str(FPS),
+            "ffmpeg", "-nostdin", "-y", "-loop", "1", "-framerate", str(FPS),
             "-t", f"{per:.3f}", "-i", str(slide),
             "-vf", f"scale={W}:{H}:force_original_aspect_ratio=decrease,pad={W}:{H}:(ow-iw)/2:(oh-ih)/2:color=white,format=yuv420p",
             "-c:v", "libx264", "-preset", "ultrafast", "-crf", "23",
@@ -70,12 +70,12 @@ def make_scene_clip(slides: list[Path], audio: Path, work: Path, idx: str) -> Pa
     listfile.write_text("\n".join(concat_lines))
     silent_video = work / f"scene_{idx}_silent.mp4"
     subprocess.check_call([
-        "ffmpeg", "-y", "-f", "concat", "-safe", "0", "-i", str(listfile),
+        "ffmpeg", "-nostdin", "-y", "-f", "concat", "-safe", "0", "-i", str(listfile),
         "-c", "copy", str(silent_video),
     ], stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
     out = work / f"scene_{idx}.mp4"
     subprocess.check_call([
-        "ffmpeg", "-y", "-i", str(silent_video), "-i", str(audio),
+        "ffmpeg", "-nostdin", "-y", "-i", str(silent_video), "-i", str(audio),
         "-c:v", "copy", "-c:a", "aac", "-b:a", "192k", "-shortest",
         str(out),
     ], stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
@@ -113,7 +113,7 @@ def main():
     listfile.write_text("\n".join(f"file '{c.resolve()}'" for c in scene_clips))
     args.out.parent.mkdir(parents=True, exist_ok=True)
     subprocess.check_call([
-        "ffmpeg", "-y", "-f", "concat", "-safe", "0", "-i", str(listfile),
+        "ffmpeg", "-nostdin", "-y", "-f", "concat", "-safe", "0", "-i", str(listfile),
         "-c:v", "libx264", "-preset", "ultrafast", "-crf", "23",
         "-c:a", "aac", "-b:a", "192k",
         "-pix_fmt", "yuv420p", "-r", str(FPS),
