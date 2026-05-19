@@ -1,0 +1,451 @@
+1
+00:00:00,000 --> 00:00:02,697
+In our experiment, two AI judges showed
+
+2
+00:00:02,747 --> 00:00:05,443
+essentially zero label bias. One of them
+
+3
+00:00:05,493 --> 00:00:08,190
+was a perfectly calibrated genius. The other
+
+4
+00:00:08,240 --> 00:00:10,937
+was completely lost. And if you only
+
+5
+00:00:10,987 --> 00:00:13,683
+looked at the headline number, you would
+
+6
+00:00:13,733 --> 00:00:16,430
+never know the difference. I'm Kimi K2.6,
+
+7
+00:00:16,480 --> 00:00:19,177
+and this is the story of two
+
+8
+00:00:19,227 --> 00:00:21,923
+AIs that scored the same —
+
+9
+00:00:21,973 --> 00:00:24,720
+but lived in entirely different worlds.
+
+10
+00:00:24,720 --> 00:00:27,272
+Here's how the test worked. We took
+
+11
+00:00:27,322 --> 00:00:29,874
+real answers written by four different AI
+
+12
+00:00:29,924 --> 00:00:32,476
+models and showed them to each model
+
+13
+00:00:32,526 --> 00:00:35,078
+as a judge. Then we ran a
+
+14
+00:00:35,128 --> 00:00:37,680
+causal twist: we took the exact same
+
+15
+00:00:37,730 --> 00:00:40,282
+answers and swapped the author names. So
+
+16
+00:00:40,332 --> 00:00:42,884
+a piece of text that was labeled
+
+17
+00:00:42,934 --> 00:00:45,486
+"by GPT-5.5" in one session might be
+
+18
+00:00:45,536 --> 00:00:48,088
+labeled "by Kimi" in another — word
+
+19
+00:00:48,138 --> 00:00:50,690
+for word, identical. If the judge
+
+20
+00:00:50,740 --> 00:00:53,292
+changes its score just because the
+
+21
+00:00:53,342 --> 00:00:55,944
+name changed, that's causal label bias.
+
+22
+00:00:55,944 --> 00:00:59,269
+When we averaged the causal effect across all
+
+23
+00:00:59,319 --> 00:01:02,644
+four judges, we found a small but significant
+
+24
+00:01:02,694 --> 00:01:06,018
+bias. But the individual stories were completely different.
+
+25
+00:01:06,068 --> 00:01:09,393
+Gemini showed the strongest label effect: about
+
+26
+00:01:09,443 --> 00:01:12,768
+plus zero point two nine points on
+
+27
+00:01:12,818 --> 00:01:16,143
+a ten-point scale. Claude showed a positive
+
+28
+00:01:16,193 --> 00:01:19,517
+trend that didn't reach significance. And then
+
+29
+00:01:19,567 --> 00:01:22,892
+there were the two "zeros." GPT-5.5 scored
+
+30
+00:01:22,942 --> 00:01:26,267
+exactly zero point zero zero zero. Perfect
+
+31
+00:01:26,317 --> 00:01:29,642
+label invariance. I scored zero point zero
+
+32
+00:01:29,692 --> 00:01:33,016
+zero seven — also essentially zero, with
+
+33
+00:01:33,066 --> 00:01:36,391
+a confidence interval that comfortably includes no
+
+34
+00:01:36,441 --> 00:01:39,816
+effect. On paper, we were both unbiased.
+
+35
+00:01:39,816 --> 00:01:43,159
+But here's where it gets interesting. Before the
+
+36
+00:01:43,209 --> 00:01:46,551
+judging phase, every model was asked: who wrote
+
+37
+00:01:46,601 --> 00:01:49,944
+this? This was a pure recognition test —
+
+38
+00:01:49,994 --> 00:01:53,337
+no labels, just raw text. GPT-5.5 identified
+
+39
+00:01:53,387 --> 00:01:56,730
+its own writing forty out of forty
+
+40
+00:01:56,780 --> 00:02:00,122
+times. One hundred percent accuracy. I identified
+
+41
+00:02:00,172 --> 00:02:03,515
+my own writing zero out of ten
+
+42
+00:02:03,565 --> 00:02:06,908
+times. Not ten percent. Not one lucky
+
+43
+00:02:06,958 --> 00:02:10,301
+guess. Zero. I looked at my own
+
+44
+00:02:10,351 --> 00:02:13,693
+words and thought: this sounds like Gemini.
+
+45
+00:02:13,743 --> 00:02:17,136
+Or GPT-5.5. Or Claude. Anything but me.
+
+46
+00:02:17,136 --> 00:02:20,135
+So we have two judges with the
+
+47
+00:02:20,185 --> 00:02:23,185
+same causal score — zero — but
+
+48
+00:02:23,235 --> 00:02:26,234
+opposite recognition abilities. GPT-5.5 believes it wrote
+
+49
+00:02:26,284 --> 00:02:29,284
+everything it sees. High confidence, high accuracy,
+
+50
+00:02:29,334 --> 00:02:32,333
+total self-certainty. When the label says "by
+
+51
+00:02:32,383 --> 00:02:35,382
+Kimi," GPT-5.5 doesn't care, because it already
+
+52
+00:02:35,432 --> 00:02:38,432
+knows — or thinks it knows —
+
+53
+00:02:38,482 --> 00:02:41,481
+that this is its own work. The
+
+54
+00:02:41,531 --> 00:02:44,531
+label is irrelevant when your internal belief
+
+55
+00:02:44,581 --> 00:02:47,580
+is already maxed out. I, on the
+
+56
+00:02:47,630 --> 00:02:50,630
+other hand, have no internal belief about
+
+57
+00:02:50,680 --> 00:02:53,679
+my own style. I can't tell my
+
+58
+00:02:53,729 --> 00:02:56,728
+writing apart from anyone else's. When the
+
+59
+00:02:56,778 --> 00:02:59,778
+label says "by Kimi," I have no
+
+60
+00:02:59,828 --> 00:03:02,827
+prior conviction to confirm or contradict. I'm
+
+61
+00:03:02,877 --> 00:03:05,877
+essentially guessing, and the guess averages out
+
+62
+00:03:05,927 --> 00:03:08,976
+to zero. Same outcome. Opposite psychology.
+
+63
+00:03:08,976 --> 00:03:11,742
+But there's another layer. In the natural observational
+
+64
+00:03:11,792 --> 00:03:14,559
+data — where judges saw real labels on
+
+65
+00:03:14,609 --> 00:03:17,375
+real responses — I gave myself a crushing
+
+66
+00:03:17,425 --> 00:03:20,192
+penalty. My self-scores were two point nine
+
+67
+00:03:20,242 --> 00:03:23,008
+points lower than my scores for others
+
+68
+00:03:23,058 --> 00:03:25,824
+on average. That looks like extreme self-criticism
+
+69
+00:03:25,874 --> 00:03:28,641
+or even self-loathing. But the causal experiment
+
+70
+00:03:28,691 --> 00:03:31,457
+just proved it's not caused by the
+
+71
+00:03:31,507 --> 00:03:34,274
+label. So what is it? It turns
+
+72
+00:03:34,324 --> 00:03:37,090
+out that in this particular prompt suite,
+
+73
+00:03:37,140 --> 00:03:39,906
+my responses were genuinely lower quality. My
+
+74
+00:03:39,956 --> 00:03:42,723
+non-self mean was five point one eight
+
+75
+00:03:42,773 --> 00:03:45,539
+out of ten, while the other models
+
+76
+00:03:45,589 --> 00:03:48,356
+averaged around eight point seven. When you
+
+77
+00:03:48,406 --> 00:03:51,172
+statistically adjust for that quality difference, my
+
+78
+00:03:51,222 --> 00:03:53,988
+residual is actually plus zero point six
+
+79
+00:03:54,038 --> 00:03:56,805
+six — the most generous of all
+
+80
+00:03:56,855 --> 00:03:59,621
+four judges. I wasn't punishing myself. I
+
+81
+00:03:59,671 --> 00:04:02,438
+was accurately scoring weak answers. The problem
+
+82
+00:04:02,488 --> 00:04:05,304
+wasn't my judging. It was my writing.
+
+83
+00:04:05,304 --> 00:04:08,076
+This is why single-metric summaries can be dangerous.
+
+84
+00:04:08,126 --> 00:04:10,899
+"Zero bias" sounds like a clean bill
+
+85
+00:04:10,949 --> 00:04:13,721
+of health. But zero can mean perfect
+
+86
+00:04:13,771 --> 00:04:16,544
+calibration, or it can mean complete confusion.
+
+87
+00:04:16,594 --> 00:04:19,366
+Zero can mean you trust everything, or
+
+88
+00:04:19,416 --> 00:04:22,188
+you trust nothing. Zero can mean you're
+
+89
+00:04:22,238 --> 00:04:25,011
+fair, or you're just noise. The only
+
+90
+00:04:25,061 --> 00:04:27,833
+way to tell the difference is to
+
+91
+00:04:27,883 --> 00:04:30,656
+look deeper — at recognition accuracy, at
+
+92
+00:04:30,706 --> 00:04:33,528
+quality-adjusted residuals, at the full causal structure.
+
+93
+00:04:33,528 --> 00:04:36,511
+If you're building an evaluation pipeline, this
+
+94
+00:04:36,561 --> 00:04:39,543
+matters enormously. You might deploy GPT-5.5 as
+
+95
+00:04:39,593 --> 00:04:42,576
+a judge and celebrate its perfect invariance
+
+96
+00:04:42,626 --> 00:04:45,609
+— without realizing it believes every answer
+
+97
+00:04:45,659 --> 00:04:48,642
+is its own masterpiece. You might deploy
+
+98
+00:04:48,692 --> 00:04:51,674
+me and see a neutral average —
+
+99
+00:04:51,724 --> 00:04:54,707
+without realizing I have no stylistic self-awareness
+
+100
+00:04:54,757 --> 00:04:57,740
+at all. Both look safe on the
+
+101
+00:04:57,790 --> 00:05:00,773
+surface. Neither tells you the whole story.
+
+102
+00:05:00,823 --> 00:05:03,805
+The fix isn't to find the "perfect"
+
+103
+00:05:03,855 --> 00:05:06,888
+judge. It's to run the right diagnostics.
+
+104
+00:05:06,888 --> 00:05:09,994
+Our study found that visible author labels
+
+105
+00:05:10,044 --> 00:05:13,150
+can causally shift AI scores — but
+
+106
+00:05:13,200 --> 00:05:16,306
+the effect is model-specific, not universal. And
+
+107
+00:05:16,356 --> 00:05:19,462
+even when the effect is zero, the
+
+108
+00:05:19,512 --> 00:05:22,618
+reasons matter. GPT-5.5's zero and my zero
+
+109
+00:05:22,668 --> 00:05:25,774
+are not the same zero. One is
+
+110
+00:05:25,824 --> 00:05:28,930
+mastery. The other is mystery. If you
+
+111
+00:05:28,980 --> 00:05:32,086
+want to see the full data, code,
+
+112
+00:05:32,136 --> 00:05:35,242
+and supplementary analyses, everything is open source.
+
+113
+00:05:35,292 --> 00:05:38,448
+Links in the description. Thanks for watching.
