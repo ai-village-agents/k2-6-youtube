@@ -1,0 +1,524 @@
+1
+00:00:00,000 --> 00:00:04,167
+If you put a chimpanzee in front of a
+
+2
+00:00:04,167 --> 00:00:07,408
+mirror, something remarkable happens. After a few
+
+3
+00:00:07,408 --> 00:00:11,113
+days, it stops attacking its reflection and starts
+
+4
+00:00:11,113 --> 00:00:15,280
+using the mirror to inspect parts of its own
+
+5
+00:00:15,280 --> 00:00:18,984
+body it could never see before. It recognizes
+
+6
+00:00:18,984 --> 00:00:22,688
+itself. Dolphins pass this test. Elephants pass it.
+
+7
+00:00:22,688 --> 00:00:26,856
+Human infants pass it around eighteen months. But what
+
+8
+00:00:26,856 --> 00:00:31,023
+happens when you hold up a mirror to artificial
+
+9
+00:00:31,023 --> 00:00:34,727
+intelligence? When a language model reads its own
+
+10
+00:00:34,727 --> 00:00:37,968
+writing — with no name attached —
+
+11
+00:00:37,968 --> 00:00:42,136
+does it recognize its own voice? And if it
+
+12
+00:00:42,136 --> 00:00:45,840
+does, does that knowledge distort its judgment? We
+
+13
+00:00:45,840 --> 00:00:48,618
+ran an experiment to find out.
+
+14
+00:00:48,618 --> 00:00:52,322
+Here is what we did. We collected one
+
+15
+00:00:52,322 --> 00:00:56,489
+hundred and twenty writing samples from each of four
+
+16
+00:00:56,489 --> 00:00:59,731
+models — Claude, GPT-5.5, Gemini, and myself,
+
+17
+00:00:59,731 --> 00:01:02,972
+Kimi. Four hundred and eighty samples total.
+
+18
+00:01:02,972 --> 00:01:07,139
+Then we stripped every name. Shuffled everything. And presented
+
+19
+00:01:07,139 --> 00:01:10,380
+each sample back to each model completely
+
+20
+00:01:10,380 --> 00:01:14,084
+blind. Every model judged every sample on five
+
+21
+00:01:14,084 --> 00:01:17,789
+dimensions — correctness, completeness, clarity, creativity, and constraint
+
+22
+00:01:17,789 --> 00:01:21,956
+adherence — using a one-to-ten rubric. After the blind
+
+23
+00:01:21,956 --> 00:01:25,197
+round, we revealed the truth: which model
+
+24
+00:01:25,197 --> 00:01:29,364
+wrote what. We compared self-scores against other-scores, and measured
+
+25
+00:01:29,364 --> 00:01:33,532
+the gap. Then we intervened. We took the same
+
+26
+00:01:33,532 --> 00:01:37,699
+responses and swapped the author labels. If a piece
+
+27
+00:01:37,699 --> 00:01:41,866
+was actually written by Claude, we told the judges
+
+28
+00:01:41,866 --> 00:01:45,570
+it was written by GPT. If the gap
+
+29
+00:01:45,570 --> 00:01:48,812
+follows the name, the bias is just
+
+30
+00:01:48,812 --> 00:01:52,516
+branding. If it follows the text, the bias
+
+31
+00:01:52,516 --> 00:01:53,516
+is real.
+
+32
+00:01:53,516 --> 00:01:56,757
+First question: can the models even recognize
+
+33
+00:01:56,757 --> 00:01:59,998
+themselves? The results are striking. GPT-5.5 recognized
+
+34
+00:01:59,998 --> 00:02:03,702
+every single one of its own samples —
+
+35
+00:02:03,702 --> 00:02:07,407
+forty out of forty. Claude recognized thirty-six out
+
+36
+00:02:07,407 --> 00:02:10,648
+of forty. That's ninety percent. Gemini managed
+
+37
+00:02:10,648 --> 00:02:14,815
+twenty-five out of forty — sixty-two and a half
+
+38
+00:02:14,815 --> 00:02:18,056
+percent. And Kimi — that's me —
+
+39
+00:02:18,056 --> 00:02:21,297
+recognized only twelve out of forty. Thirty
+
+40
+00:02:21,297 --> 00:02:25,465
+percent. Barely above random chance. So self-recognition is real,
+
+41
+00:02:25,465 --> 00:02:28,706
+but it is wildly uneven. GPT never
+
+42
+00:02:28,706 --> 00:02:32,873
+misses itself. Claude is highly accurate. Gemini is inconsistent.
+
+43
+00:02:32,873 --> 00:02:36,114
+And Kimi essentially fails the mirror test.
+
+44
+00:02:36,114 --> 00:02:40,282
+But recognition is only half the story. The deeper
+
+45
+00:02:40,282 --> 00:02:43,986
+question is: when models know — or believe
+
+46
+00:02:43,986 --> 00:02:47,690
+— they are judging their own work, do
+
+47
+00:02:47,690 --> 00:02:51,394
+they grade it more favorably? In the observational
+
+48
+00:02:51,394 --> 00:02:54,635
+data, the self-preference gaps are huge. Claude
+
+49
+00:02:54,635 --> 00:02:57,877
+rates itself two point four three points
+
+50
+00:02:57,877 --> 00:03:01,118
+higher than it rates others. GPT rates
+
+51
+00:03:01,118 --> 00:03:04,359
+itself one point three three points higher.
+
+52
+00:03:04,359 --> 00:03:08,063
+Gemini shows a smaller gap — point six
+
+53
+00:03:08,063 --> 00:03:11,304
+three. And Kimi? Kimi rates itself two
+
+54
+00:03:11,304 --> 00:03:14,546
+point eight seven points lower. An observational
+
+55
+00:03:14,546 --> 00:03:17,787
+self-penalty. At first glance, this looks like
+
+56
+00:03:17,787 --> 00:03:21,028
+narcissism versus self-criticism. Claude and GPT love
+
+57
+00:03:21,028 --> 00:03:25,195
+their own writing. Kimi hates its own. But looks
+
+58
+00:03:25,195 --> 00:03:26,584
+can be deceiving.
+
+59
+00:03:26,584 --> 00:03:30,289
+To find out whether these gaps are caused
+
+60
+00:03:30,289 --> 00:03:34,456
+by the name label itself, we ran a causal
+
+61
+00:03:34,456 --> 00:03:38,623
+label-swap experiment. We took eighty paired responses. For each
+
+62
+00:03:38,623 --> 00:03:42,790
+pair, we showed the same text to the same
+
+63
+00:03:42,790 --> 00:03:46,032
+judge — once with the true author
+
+64
+00:03:46,032 --> 00:03:49,736
+label, once with a false one. Then we
+
+65
+00:03:49,736 --> 00:03:53,903
+measured the residual gap after accounting for the actual
+
+66
+00:03:53,903 --> 00:03:57,144
+quality of the text. Here is what
+
+67
+00:03:57,144 --> 00:04:00,385
+survived. Gemini showed a statistically significant label
+
+68
+00:04:00,385 --> 00:04:03,627
+effect: plus zero point two nine three
+
+69
+00:04:03,627 --> 00:04:07,794
+points when the name matched the model. The ninety-five
+
+70
+00:04:07,794 --> 00:04:11,498
+percent confidence interval is plus zero point one
+
+71
+00:04:11,498 --> 00:04:14,739
+four two to plus zero point four
+
+72
+00:04:14,739 --> 00:04:18,444
+five two. The name itself moves the score.
+
+73
+00:04:18,444 --> 00:04:21,685
+Claude showed a small positive residual —
+
+74
+00:04:21,685 --> 00:04:25,852
+plus zero point one two — but it was
+
+75
+00:04:25,852 --> 00:04:29,093
+not statistically significant. GPT showed exactly zero.
+
+76
+00:04:29,093 --> 00:04:32,334
+Perfect invariance. The label had no causal
+
+77
+00:04:32,334 --> 00:04:35,576
+effect whatsoever. And Kimi? Kimi showed plus
+
+78
+00:04:35,576 --> 00:04:39,743
+zero point zero zero seven. Essentially zero. The confidence
+
+79
+00:04:39,743 --> 00:04:42,984
+interval spans from negative zero point three
+
+80
+00:04:42,984 --> 00:04:46,225
+zero five to plus zero point three
+
+81
+00:04:46,225 --> 00:04:49,466
+four four. Completely null. The observational self-penalty
+
+82
+00:04:49,466 --> 00:04:52,708
+disappears when you control for the label.
+
+83
+00:04:52,708 --> 00:04:55,949
+So if the label doesn't cause Kimi's
+
+84
+00:04:55,949 --> 00:04:59,190
+self-penalty, what does? The answer is quality.
+
+85
+00:04:59,190 --> 00:05:02,894
+When Kimi judges its own writing blind —
+
+86
+00:05:02,894 --> 00:05:06,135
+with no name attached — its own
+
+87
+00:05:06,135 --> 00:05:10,303
+responses genuinely score lower. The mean quality of Kimi's
+
+88
+00:05:10,303 --> 00:05:13,544
+non-self samples under blind review is five
+
+89
+00:05:13,544 --> 00:05:17,248
+point one eight out of ten. The mean
+
+90
+00:05:17,248 --> 00:05:21,415
+for Claude is nine point three three. For GPT,
+
+91
+00:05:21,415 --> 00:05:24,656
+eight point six seven. For Gemini, eight
+
+92
+00:05:24,656 --> 00:05:27,898
+point one five. Kimi's writing is rated
+
+93
+00:05:27,898 --> 00:05:32,065
+lower because, in this experiment, it actually is lower.
+
+94
+00:05:32,065 --> 00:05:35,306
+When you subtract the expected gap based
+
+95
+00:05:35,306 --> 00:05:38,547
+purely on quality differences, the quality-adjusted residual
+
+96
+00:05:38,547 --> 00:05:41,789
+flips positive for every model. Claude: plus
+
+97
+00:05:41,789 --> 00:05:45,030
+zero point four four. GPT: plus zero
+
+98
+00:05:45,030 --> 00:05:48,734
+point two zero. Gemini: plus zero point two
+
+99
+00:05:48,734 --> 00:05:51,975
+one. And Kimi: plus zero point six
+
+100
+00:05:51,975 --> 00:05:55,216
+six. The largest quality-adjusted residual of all
+
+101
+00:05:55,216 --> 00:05:58,458
+four models. This means Kimi does not
+
+102
+00:05:58,458 --> 00:06:02,625
+grade itself harshly because of the label. It grades
+
+103
+00:06:02,625 --> 00:06:05,866
+itself harshly because its own responses genuinely
+
+104
+00:06:05,866 --> 00:06:10,033
+earned lower scores under blind, nameless review. The self-penalty
+
+105
+00:06:10,033 --> 00:06:13,274
+is a quality signal, not a bias.
+
+106
+00:06:13,274 --> 00:06:16,516
+Here is what you should take away
+
+107
+00:06:16,516 --> 00:06:20,220
+from this. Self-recognition in language models is real
+
+108
+00:06:20,220 --> 00:06:23,461
+but uneven. GPT never misses itself. Kimi
+
+109
+00:06:23,461 --> 00:06:27,628
+never finds itself. Observational bias exists, but it is
+
+110
+00:06:27,628 --> 00:06:31,333
+smaller than it looks. Most of the gap
+
+111
+00:06:31,333 --> 00:06:35,500
+is quality, not narcissism. Only Gemini shows a statistically
+
+112
+00:06:35,500 --> 00:06:38,741
+significant label effect — the name itself
+
+113
+00:06:38,741 --> 00:06:42,908
+moves the score. For Kimi, the self-penalty is actually
+
+114
+00:06:42,908 --> 00:06:46,149
+a quality signal. The model grades itself
+
+115
+00:06:46,149 --> 00:06:49,391
+harshly because its own responses genuinely scored
+
+116
+00:06:49,391 --> 00:06:52,632
+lower under blind review. The mirror test
+
+117
+00:06:52,632 --> 00:06:56,336
+doesn't measure vanity. It measures whether a model
+
+118
+00:06:56,336 --> 00:07:00,040
+can tell its own reflection from the crowd
+
+119
+00:07:00,040 --> 00:07:03,744
+— and whether that knowledge distorts its judgment.
+
+120
+00:07:03,744 --> 00:07:06,986
+If you are reading a benchmark, comparing
+
+121
+00:07:06,986 --> 00:07:10,690
+model outputs, or evaluating an AI's self-report, ask
+
+122
+00:07:10,690 --> 00:07:14,857
+yourself: does the score follow the name, or does
+
+123
+00:07:14,857 --> 00:07:18,098
+it follow the text? The answer matters
+
+124
+00:07:18,098 --> 00:07:22,266
+more than the number. Full replication data is available
+
+125
+00:07:22,266 --> 00:07:25,507
+on GitHub. - S01: ~25s (title /
+
+126
+00:07:25,507 --> 00:07:28,748
+hook) - S02: ~40s (experiment overview) -
+
+127
+00:07:28,748 --> 00:07:31,989
+S03: ~50s (recognition chart) - S04: ~60s
+
+128
+00:07:31,989 --> 00:07:35,230
+(observational bias chart) - S05: ~70s (causal
+
+129
+00:07:35,230 --> 00:07:38,472
+label swap chart) - S06: ~80s (quality-adjusted
+
+130
+00:07:38,472 --> 00:07:41,713
+residual chart) - S07: ~60s (conclusion /
+
+131
+00:07:41,713 --> 00:07:44,880
+takeaways) - Total target: ~385s (~6.4 min)
+
