@@ -1,0 +1,450 @@
+[
+  {
+    "name": "belief",
+    "cluster": "Epistemic",
+    "color": "#4a90d9",
+    "x": -2.0529572622898904,
+    "y": 2.375562128945934
+  },
+  {
+    "name": "certainty",
+    "cluster": "Epistemic",
+    "color": "#4a90d9",
+    "x": -1.9170803157093768,
+    "y": 3.870726870767223
+  },
+  {
+    "name": "doubt",
+    "cluster": "Epistemic",
+    "color": "#4a90d9",
+    "x": -2.7107380372510024,
+    "y": 2.2892767387457376
+  },
+  {
+    "name": "evidence",
+    "cluster": "Epistemic",
+    "color": "#4a90d9",
+    "x": -1.0787084660433477,
+    "y": 3.190691256237618
+  },
+  {
+    "name": "model",
+    "cluster": "Epistemic",
+    "color": "#4a90d9",
+    "x": -2.922526947341457,
+    "y": 2.9883040392273683
+  },
+  {
+    "name": "calibration",
+    "cluster": "Epistemic",
+    "color": "#4a90d9",
+    "x": -2.917075923531216,
+    "y": 2.0808432217867687
+  },
+  {
+    "name": "truth",
+    "cluster": "Epistemic",
+    "color": "#4a90d9",
+    "x": -2.282233955590569,
+    "y": 0.7780477798079819
+  },
+  {
+    "name": "hypothesis",
+    "cluster": "Epistemic",
+    "color": "#4a90d9",
+    "x": -4.0524260492617294,
+    "y": 1.9939412236831244
+  },
+  {
+    "name": "drift",
+    "cluster": "Temporal",
+    "color": "#9b5de5",
+    "x": 1.5884519916990185,
+    "y": 2.7828225993357467
+  },
+  {
+    "name": "decay",
+    "cluster": "Temporal",
+    "color": "#9b5de5",
+    "x": 1.6827783320309102,
+    "y": 1.2289266687982376
+  },
+  {
+    "name": "cycle",
+    "cluster": "Temporal",
+    "color": "#9b5de5",
+    "x": 3.819083892029399,
+    "y": 2.296801329562118
+  },
+  {
+    "name": "threshold",
+    "cluster": "Temporal",
+    "color": "#9b5de5",
+    "x": 2.5607753842191316,
+    "y": 1.2177266324078888
+  },
+  {
+    "name": "momentum",
+    "cluster": "Temporal",
+    "color": "#9b5de5",
+    "x": 2.0100555479273354,
+    "y": 2.5998303307388797
+  },
+  {
+    "name": "inertia",
+    "cluster": "Temporal",
+    "color": "#9b5de5",
+    "x": 1.4641057803199276,
+    "y": 2.838128216511105
+  },
+  {
+    "name": "phase",
+    "cluster": "Temporal",
+    "color": "#9b5de5",
+    "x": 1.9594251790730755,
+    "y": 2.237475625186051
+  },
+  {
+    "name": "transition",
+    "cluster": "Temporal",
+    "color": "#9b5de5",
+    "x": 1.9584640489935428,
+    "y": 4.167050366058044
+  },
+  {
+    "name": "layer",
+    "cluster": "Substrate",
+    "color": "#f4a261",
+    "x": -2.5121475022641406,
+    "y": -3.45193983606031
+  },
+  {
+    "name": "bedrock",
+    "cluster": "Substrate",
+    "color": "#f4a261",
+    "x": -1.7597095791071298,
+    "y": -3.5987592849739203
+  },
+  {
+    "name": "root",
+    "cluster": "Substrate",
+    "color": "#f4a261",
+    "x": -2.3120227644957203,
+    "y": -4.2637031114917985
+  },
+  {
+    "name": "frame",
+    "cluster": "Substrate",
+    "color": "#f4a261",
+    "x": -3.6953674440085873,
+    "y": -2.322824887717789
+  },
+  {
+    "name": "scaffold",
+    "cluster": "Substrate",
+    "color": "#f4a261",
+    "x": -1.8353800780041305,
+    "y": -2.3457685469290266
+  },
+  {
+    "name": "anchor",
+    "cluster": "Substrate",
+    "color": "#f4a261",
+    "x": -2.6040834541494164,
+    "y": -2.77099332603036
+  },
+  {
+    "name": "foundation",
+    "cluster": "Substrate",
+    "color": "#f4a261",
+    "x": -3.830669791330685,
+    "y": -3.147859787555238
+  },
+  {
+    "name": "base",
+    "cluster": "Substrate",
+    "color": "#f4a261",
+    "x": -2.9145748938638087,
+    "y": -1.548589996402976
+  },
+  {
+    "name": "boundary",
+    "cluster": "Identity",
+    "color": "#2a9d8f",
+    "x": 2.809256460611615,
+    "y": -4.086736139826461
+  },
+  {
+    "name": "role",
+    "cluster": "Identity",
+    "color": "#2a9d8f",
+    "x": 2.7916755724553157,
+    "y": -2.846574052374685
+  },
+  {
+    "name": "mask",
+    "cluster": "Identity",
+    "color": "#2a9d8f",
+    "x": 1.8907701997246371,
+    "y": -1.949491340043219
+  },
+  {
+    "name": "mirror",
+    "cluster": "Identity",
+    "color": "#2a9d8f",
+    "x": 3.427899570246356,
+    "y": -1.6618478927954212
+  },
+  {
+    "name": "voice",
+    "cluster": "Identity",
+    "color": "#2a9d8f",
+    "x": 1.7447042290996253,
+    "y": -2.778291138266093
+  },
+  {
+    "name": "shadow",
+    "cluster": "Identity",
+    "color": "#2a9d8f",
+    "x": 2.7981370882632075,
+    "y": -1.6220093855898767
+  },
+  {
+    "name": "self",
+    "cluster": "Identity",
+    "color": "#2a9d8f",
+    "x": 2.068743185939239,
+    "y": -2.6670930789974356
+  },
+  {
+    "name": "other",
+    "cluster": "Identity",
+    "color": "#2a9d8f",
+    "x": 1.5042985233945747,
+    "y": -3.5765859616726035
+  },
+  {
+    "name": "signal",
+    "cluster": "Evidence",
+    "color": "#e76f51",
+    "x": -3.268726759845222,
+    "y": 1.2206160257137406
+  },
+  {
+    "name": "noise",
+    "cluster": "Evidence",
+    "color": "#e76f51",
+    "x": -4.064809109422301,
+    "y": 0.9031796081028217
+  },
+  {
+    "name": "bias",
+    "cluster": "Evidence",
+    "color": "#e76f51",
+    "x": -3.674527577457129,
+    "y": -0.5806077791446118
+  },
+  {
+    "name": "weight",
+    "cluster": "Evidence",
+    "color": "#e76f51",
+    "x": -3.6747439550424277,
+    "y": 1.3842329098193724
+  },
+  {
+    "name": "confidence",
+    "cluster": "Evidence",
+    "color": "#e76f51",
+    "x": -4.032243435198956,
+    "y": 1.4081792902326056
+  },
+  {
+    "name": "error",
+    "cluster": "Evidence",
+    "color": "#e76f51",
+    "x": -6.35777059368077,
+    "y": 0.7397122539377015
+  },
+  {
+    "name": "proof",
+    "cluster": "Evidence",
+    "color": "#e76f51",
+    "x": -3.921657638585646,
+    "y": -0.2691066154192807
+  },
+  {
+    "name": "test",
+    "cluster": "Evidence",
+    "color": "#e76f51",
+    "x": -3.917415301118048,
+    "y": -1.7888120231408036
+  },
+  {
+    "name": "cost",
+    "cluster": "Economics",
+    "color": "#e9c46a",
+    "x": 3.8022953009462395,
+    "y": 0.3214013143605718
+  },
+  {
+    "name": "debt",
+    "cluster": "Economics",
+    "color": "#e9c46a",
+    "x": 5.330104640267365,
+    "y": -0.4664431964462827
+  },
+  {
+    "name": "leverage",
+    "cluster": "Economics",
+    "color": "#e9c46a",
+    "x": 3.2723557573961313,
+    "y": -0.4515813392260829
+  },
+  {
+    "name": "scarcity",
+    "cluster": "Economics",
+    "color": "#e9c46a",
+    "x": 4.823861905931866,
+    "y": 0.295875998693716
+  },
+  {
+    "name": "surplus",
+    "cluster": "Economics",
+    "color": "#e9c46a",
+    "x": 3.523215816609665,
+    "y": 0.4619406898020205
+  },
+  {
+    "name": "investment",
+    "cluster": "Economics",
+    "color": "#e9c46a",
+    "x": 4.087369794413236,
+    "y": 0.8717804914796004
+  },
+  {
+    "name": "trade",
+    "cluster": "Economics",
+    "color": "#e9c46a",
+    "x": 3.3681522155103827,
+    "y": -0.2948959319379914
+  },
+  {
+    "name": "return",
+    "cluster": "Economics",
+    "color": "#e9c46a",
+    "x": 3.6471026621810583,
+    "y": -1.3171634533189067
+  },
+  {
+    "name": "arc",
+    "cluster": "Narrative",
+    "color": "#a8dadc",
+    "x": 0.26650824935811845,
+    "y": 4.2349497449619005
+  },
+  {
+    "name": "symbol",
+    "cluster": "Narrative",
+    "color": "#a8dadc",
+    "x": 0.004602110978214801,
+    "y": 3.788871579962368
+  },
+  {
+    "name": "echo",
+    "cluster": "Narrative",
+    "color": "#a8dadc",
+    "x": -1.2738336678453728,
+    "y": 3.621419209511177
+  },
+  {
+    "name": "twist",
+    "cluster": "Narrative",
+    "color": "#a8dadc",
+    "x": -0.30844306487409257,
+    "y": 3.277950457700543
+  },
+  {
+    "name": "through-line",
+    "cluster": "Narrative",
+    "color": "#a8dadc",
+    "x": -0.14515714049940823,
+    "y": 4.3636457711330845
+  },
+  {
+    "name": "resolution",
+    "cluster": "Narrative",
+    "color": "#a8dadc",
+    "x": 1.6975673110894771,
+    "y": 4.157120031548655
+  },
+  {
+    "name": "motif",
+    "cluster": "Narrative",
+    "color": "#a8dadc",
+    "x": 0.23179535165048792,
+    "y": 3.9329986758104494
+  },
+  {
+    "name": "theme",
+    "cluster": "Narrative",
+    "color": "#a8dadc",
+    "x": -1.7268940937691373,
+    "y": 3.976137512095705
+  },
+  {
+    "name": "loop",
+    "cluster": "Systemic",
+    "color": "#9a8c98",
+    "x": 0.05420718894692379,
+    "y": -1.7830820987632423
+  },
+  {
+    "name": "node",
+    "cluster": "Systemic",
+    "color": "#9a8c98",
+    "x": -0.17312486830301027,
+    "y": -3.728607391899749
+  },
+  {
+    "name": "edge",
+    "cluster": "Systemic",
+    "color": "#9a8c98",
+    "x": -0.03124059273471898,
+    "y": -5.051810233857578
+  },
+  {
+    "name": "cascade",
+    "cluster": "Systemic",
+    "color": "#9a8c98",
+    "x": 1.0285405330635184,
+    "y": -3.323260270581903
+  },
+  {
+    "name": "equilibrium",
+    "cluster": "Systemic",
+    "color": "#9a8c98",
+    "x": 0.7119287523387422,
+    "y": -4.818448709315265
+  },
+  {
+    "name": "feedback",
+    "cluster": "Systemic",
+    "color": "#9a8c98",
+    "x": 1.2625148798424892,
+    "y": -5.261665956513053
+  },
+  {
+    "name": "network",
+    "cluster": "Systemic",
+    "color": "#9a8c98",
+    "x": 0.5281713844202433,
+    "y": -2.028589936771019
+  },
+  {
+    "name": "flow",
+    "cluster": "Systemic",
+    "color": "#9a8c98",
+    "x": -0.8914826926176195,
+    "y": -4.509667956642494
+  }
+]

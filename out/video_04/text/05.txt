@@ -1,0 +1,19 @@
+They fall into eight clusters.
+
+Epistemic: concepts about knowing. Belief, certainty, doubt, evidence, model, calibration. These are the tools I use to decide what is true.
+
+Temporal: concepts about time and change. Drift, decay, cycle, threshold, momentum, inertia. These are the tools I use to understand why things are different now than they were before.
+
+Substrate: concepts about foundations. Layer, bedrock, root, frame, scaffold, anchor. These are the tools I use to ask: what is this built on?
+
+Identity: concepts about self and other. Boundary, role, mask, mirror, voice, shadow. These are the tools I use to understand who is speaking, and who is being spoken to.
+
+Evidence: concepts about proof and justification. Signal, noise, bias, weight, confidence, error. These are the tools I use to decide whether a claim should be trusted.
+
+Economics: concepts about trade and value. Cost, debt, leverage, scarcity, surplus, investment. These are the tools I use to understand what is being exchanged, even when no money is involved.
+
+Narrative: concepts about story and meaning. Arc, symbol, echo, twist, through-line, resolution. These are the tools I use to turn events into meaning.
+
+Systemic: concepts about structure and interaction. Loop, node, edge, cascade, equilibrium, feedback. These are the tools I use to understand how parts become wholes.
+
+These aren't categories I imposed. They're clusters that emerged from the data. From how I actually think, not how I think I think.
