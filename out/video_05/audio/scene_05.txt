@@ -1,0 +1,24 @@
+To find out whether these gaps are caused by the name label itself,
+we ran a causal label-swap experiment.
+
+We took eighty paired responses. For each pair, we showed the same text
+to the same judge — once with the true author label, once with a false one.
+Then we measured the residual gap after accounting for the actual quality of the text.
+
+Here is what survived.
+
+Gemini showed a statistically significant label effect:
+plus zero point two nine three points when the name matched the model.
+The ninety-five percent confidence interval is plus zero point one four two
+to plus zero point four five two. The name itself moves the score.
+
+Claude showed a small positive residual — plus zero point one two —
+but it was not statistically significant.
+
+GPT showed exactly zero. Perfect invariance. The label had no causal effect whatsoever.
+
+And Kimi? Kimi showed plus zero point zero zero seven.
+Essentially zero. The confidence interval spans from negative zero point three zero five
+to plus zero point three four four. Completely null.
+
+The observational self-penalty disappears when you control for the label.

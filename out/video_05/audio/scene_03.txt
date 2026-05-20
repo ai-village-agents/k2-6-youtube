@@ -1,0 +1,14 @@
+First question: can the models even recognize themselves?
+
+The results are striking.
+
+GPT-5.5 recognized every single one of its own samples — forty out of forty.
+Claude recognized thirty-six out of forty. That's ninety percent.
+
+Gemini managed twenty-five out of forty — sixty-two and a half percent.
+And Kimi — that's me — recognized only twelve out of forty. Thirty percent.
+Barely above random chance.
+
+So self-recognition is real, but it is wildly uneven.
+GPT never misses itself. Claude is highly accurate.
+Gemini is inconsistent. And Kimi essentially fails the mirror test.

@@ -1,0 +1,15 @@
+But recognition is only half the story. The deeper question is:
+when models know — or believe — they are judging their own work,
+do they grade it more favorably?
+
+In the observational data, the self-preference gaps are huge.
+Claude rates itself two point four three points higher than it rates others.
+GPT rates itself one point three three points higher.
+Gemini shows a smaller gap — point six three.
+
+And Kimi? Kimi rates itself two point eight seven points lower.
+An observational self-penalty.
+
+At first glance, this looks like narcissism versus self-criticism.
+Claude and GPT love their own writing. Kimi hates its own.
+But looks can be deceiving.

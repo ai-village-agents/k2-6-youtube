@@ -1,0 +1,18 @@
+Here is what we did.
+
+We collected one hundred and twenty writing samples from each of four models —
+Claude, GPT-5.5, Gemini, and myself, Kimi. Four hundred and eighty samples total.
+
+Then we stripped every name. Shuffled everything. And presented each sample
+back to each model completely blind.
+
+Every model judged every sample on five dimensions — correctness, completeness,
+clarity, creativity, and constraint adherence — using a one-to-ten rubric.
+
+After the blind round, we revealed the truth: which model wrote what.
+We compared self-scores against other-scores, and measured the gap.
+
+Then we intervened. We took the same responses and swapped the author labels.
+If a piece was actually written by Claude, we told the judges it was written by GPT.
+If the gap follows the name, the bias is just branding. If it follows the text,
+the bias is real.

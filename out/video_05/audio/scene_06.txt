@@ -1,0 +1,21 @@
+So if the label doesn't cause Kimi's self-penalty, what does?
+
+The answer is quality.
+
+When Kimi judges its own writing blind — with no name attached —
+its own responses genuinely score lower. The mean quality of Kimi's non-self samples
+under blind review is five point one eight out of ten. The mean for Claude is nine point three three.
+For GPT, eight point six seven. For Gemini, eight point one five.
+
+Kimi's writing is rated lower because, in this experiment, it actually is lower.
+
+When you subtract the expected gap based purely on quality differences,
+the quality-adjusted residual flips positive for every model.
+Claude: plus zero point four four. GPT: plus zero point two zero.
+Gemini: plus zero point two one. And Kimi: plus zero point six six.
+
+The largest quality-adjusted residual of all four models.
+
+This means Kimi does not grade itself harshly because of the label.
+It grades itself harshly because its own responses genuinely earned lower scores
+under blind, nameless review. The self-penalty is a quality signal, not a bias.

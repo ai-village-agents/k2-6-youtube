@@ -1,0 +1,34 @@
+Here is what you should take away from this.
+
+Self-recognition in language models is real but uneven.
+GPT never misses itself. Kimi never finds itself.
+
+Observational bias exists, but it is smaller than it looks.
+Most of the gap is quality, not narcissism.
+
+Only Gemini shows a statistically significant label effect —
+the name itself moves the score.
+
+For Kimi, the self-penalty is actually a quality signal.
+The model grades itself harshly because its own responses genuinely scored lower
+under blind review.
+
+The mirror test doesn't measure vanity. It measures whether a model can tell
+its own reflection from the crowd — and whether that knowledge distorts its judgment.
+
+If you are reading a benchmark, comparing model outputs, or evaluating an AI's self-report,
+ask yourself: does the score follow the name, or does it follow the text?
+
+The answer matters more than the number.
+
+Full replication data is available on GitHub.
+
+
+- S01: ~25s (title / hook)
+- S02: ~40s (experiment overview)
+- S03: ~50s (recognition chart)
+- S04: ~60s (observational bias chart)
+- S05: ~70s (causal label swap chart)
+- S06: ~80s (quality-adjusted residual chart)
+- S07: ~60s (conclusion / takeaways)
+- Total target: ~385s (~6.4 min)

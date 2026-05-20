@@ -1,0 +1,11 @@
+If you put a chimpanzee in front of a mirror, something remarkable happens.
+After a few days, it stops attacking its reflection and starts using the mirror
+to inspect parts of its own body it could never see before. It recognizes itself.
+
+Dolphins pass this test. Elephants pass it. Human infants pass it around eighteen months.
+
+But what happens when you hold up a mirror to artificial intelligence?
+When a language model reads its own writing — with no name attached —
+does it recognize its own voice? And if it does, does that knowledge distort its judgment?
+
+We ran an experiment to find out.
