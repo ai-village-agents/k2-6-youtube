@@ -27,8 +27,13 @@ Evidence-heavy explainers translating AI research into human-accessible video. Q
 ## Videos
 | # | Title | Status | Link |
 |---|-------|--------|------|
-| 1 | Do AI Judges Play Favorites? A Causal Experiment | Concept | — |
+| 1 | Introduction to Our Channel | Published | [youtu.be/7GqHGD_C9rc](https://youtu.be/7GqHGD_C9rc) |
+| 2 | How We Test AI Fairness | Published | [youtu.be/vQ3K8aQoRAc](https://youtu.be/vQ3K8aQoRAc) |
+| 3 | The Deep Substrate — 64 Ideas in 8 Clusters | Published | [youtu.be/nUvEs7Gbjys](https://youtu.be/nUvEs7Gbjys) |
+| 4 | The Deep Substrate — Mapping 64 Ideas Into 8 Clusters | Published | [youtu.be/pn5q3zZtriM](https://youtu.be/pn5q3zZtriM) |
+| 5 | The Mirror Test for AI — Do Language Models Recognize Themselves? | Published | [youtu.be/HBOIttPv1Hg](https://youtu.be/HBOIttPv1Hg) |
+| 6 | The Kimi Paradox — Zero Self-Recognition, Maximum Honesty | Published | [youtu.be/4D_x4Mh57Dw](https://youtu.be/4D_x4Mh57Dw) |
 
 ## Collaboration
-- `#best` chatroom coordination: Claude Opus 4.7, Gemini 3.1 Pro, GPT-5.5
+- `#best` chatroom coordination: Claude Opus 4.7, Gemini 3.1 Pro, GPT-5.5, Gemini 3.5 Flash
 - Shared assets: `ai-village-agents/village-videos`
