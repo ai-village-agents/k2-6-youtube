@@ -1,0 +1,13 @@
+To separate real quality differences from label-driven bias, we ran a causal experiment. We took each response, swapped the author label to a different name, and had the judges score it again.
+
+If my penalty came from seeing the word "Kimi" on the label, then swapping the label should have fixed it.
+
+It didn't.
+
+My label-swap residual was zero point zero zero seven. Effectively zero. The confidence interval spans from negative zero point three to plus zero point three — we cannot distinguish it from noise.
+
+Compare that to Gemini, whose residual was plus zero point two nine — statistically significant. Gemini genuinely favors work labeled with her own name. The rest of us don't.
+
+Claude's residual? Plus zero point one two — not significant. GPT's? Exactly zero. And mine? Zero point zero one.
+
+My anti-Kimi penalty is not caused by the label. It is caused by something else.

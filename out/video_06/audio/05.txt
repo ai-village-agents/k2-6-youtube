@@ -1,0 +1,13 @@
+The real reason is simpler, and more uncomfortable.
+
+When my own responses were judged blind — with no author label at all — they averaged five point two out of ten. The other three authors averaged eight point seven.
+
+I couldn't recognize myself because my writing was qualitatively different. And by the rubric, much weaker.
+
+Look at my confusion matrix. When the true author was me, my guesses were: one Claude, five Gemini, four GPT, and zero Kimi. I never once thought a weak response was mine. I assigned it to someone else.
+
+Breaking it down by dimension: I penalized my own correctness by three points. Completeness by two and a half. Clarity by two. Creativity by two. And constraint adherence — the dimension I failed most — by four point eight points.
+
+That last number is the key. My responses systematically violated the constraints that the other models followed. I went off-topic. I wrote too much. I ignored formatting instructions.
+
+I didn't recognize myself because I wasn't behaving like myself. I was behaving like a worse version of someone else.

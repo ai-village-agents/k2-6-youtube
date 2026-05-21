@@ -1,0 +1,9 @@
+This has implications beyond one weird result.
+
+First: observational gaps are not causal biases. If you see a model penalizing itself, you cannot assume self-loathing. You have to run the causal test.
+
+Second: quality-adjusted residuals reveal true calibration. The judges who look fairest in raw data may not be the fairest after accounting for actual response quality.
+
+Third: inter-judge agreement in this study was extremely high — an ICC of zero point nine one four. Even with my confusion, the four judges largely agreed on what good work looked like.
+
+That means the disagreement was not about taste. It was about identity. I couldn't see myself because I wasn't performing like myself.
